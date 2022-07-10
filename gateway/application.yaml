@@ -1,5 +1,2 @@
 config:
   name: demo1
-user:
-  role: Developer
-  password: pass
