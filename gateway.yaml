@@ -1,0 +1,10 @@
+config:
+  name: gatewayDemo
+spring:
+  gateway:
+    routes:
+      - id: userRoute
+        uri:
+          lb://user
+        predicates:
+          - Path=/user/**
